@@ -1,0 +1,363 @@
+@import url('https://free.bboxtype.com/embedfonts/?family=FiraGO:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body{
+    font-family: 'FiraGO', sans-serif;
+    background-color: #161819;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img { 
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none; 
+    -moz-user-drag: none; 
+    -o-user-drag: none; 
+    user-drag: none; 
+  }
+
+.btn{
+    box-shadow: none !important;
+}
+
+input{
+    box-shadow: none !important;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+
+.header{
+    padding: 16px 0;
+}
+
+.header .btn{
+    padding: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header .btn-login{
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #EAECEF;
+}
+
+.header .btn-register{
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #EAECEF;
+    background-color: #E40641;
+}
+
+.content{
+    max-width: 707px;
+    width: 100%;
+    position: absolute;
+    padding-top: 16px;
+    top: 0;
+    left: 0;
+}
+
+.content h1{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+    color: #EAECEF;
+    margin-bottom: 32px;
+}
+
+.content h1 span{
+    color: #E40641;
+}
+
+.content p{
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #989898;
+}
+
+.content .input{
+    margin-top: 80px;
+}
+
+.content .input .input-group .icon{
+    padding: 20px 8px 20px 16px;
+    background: #252728;
+    border-radius: 16px 0 0 16px;
+}
+
+.content .input .input-group input{
+    padding-left: 0px;
+    background: #252728;
+    border: none;
+    border-radius: 16px 0 0 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* color: #6F6F6F; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.content .input .input-group .button{
+    padding: 14px 16px;
+    border-radius: 0 16px 16px 0;
+    background: #252728;
+}
+
+
+.content .input .input-group .button button{
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: #E40641;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #EAECEF;
+}
+
+.content .input .info{
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #989898;
+}
+
+.content .info img{
+    height: 24px;
+    margin-right: 8px;
+}
+
+.content .info .currency{
+    padding: 4px;
+    color: #161819;
+    border-radius: 6px;
+    background-color: #989898;
+}
+
+.container .img{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .img img{
+    max-width: 528px;
+    width: 100%;
+}
+
+.content .heading{
+    max-width: 570px;
+}
+
+
+.categories-box{
+    margin-top: 32px;
+}
+
+.categories-box .title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #EAECEF;
+}
+
+.categories-box .categories{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-column-gap: 16px;
+    margin-top: 24px;
+}
+
+.categories-box .categories .categorie{
+    padding: 24px;
+    border: 2px solid #252728;
+    background: linear-gradient(180deg, #1E2021 0%, rgba(30, 32, 33, 0.37) 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #EAECEF;
+}
+.categories-box .categories .categorie.active{
+    border-color: #E40641;
+}
+
+.categories-box .categories .categorie img{
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+    .container .img img{
+        max-width: unset;
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .container .img{
+        display: none;
+    }
+
+    .header .container{
+        padding: 0 1rem;
+    }
+
+    .mein{
+        padding-top: 24px !important;
+    }
+
+    .content h1{
+        margin-bottom: 24px;
+    }
+
+    .content .input{
+        margin-top: 48px;
+    }
+    
+
+    .container .content{
+        position: relative;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        padding-top: 0;
+        padding-left: 0 !important;
+    }
+
+    .categories-box{
+        margin-top: 64px;
+        padding: 0;
+        padding-bottom: 32px;
+    }
+
+    .categories-box .title{
+        margin-left: 16px;
+    }
+
+    .categories-box .categories{
+        display: flex;
+        width: 100%;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        padding: 16px;
+        padding-top: 0;
+    }
+
+    
+
+    .categories-box .categories::-webkit-scrollbar{
+        display: none !important;
+        opacity: 0;
+    }
+
+    .categorie {
+        min-width: 136px;
+        scroll-snap-align: center;
+    }
+
+}
+
+/* 645 */
+
+
+@media screen and (max-width: 645px) {
+    
+.content h1{
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.content p{
+    font-size: 14px;
+    line-height: 130%;
+}
+}
+
+@media screen and (max-width: 487px) {
+    
+    .content h1{
+        margin-top: 12px;
+        font-size: 6.7vw;
+        line-height: 130%;
+    }
+    
+    .content p{
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .content .input{
+        margin-top: 48px;
+    }
+    
+    .content .input .input-group .icon{
+        display: none;
+    }
+
+    .content .input .input-group input{
+        border-radius: 8px 0 0 8px !important;
+        padding: 8px;
+        padding-left: 12px;
+        font-size: 14px;
+    }
+
+    .content .input .input-group .button{
+        border-radius: 0 8px 8px 0;
+    }
+
+    .content .input .input-group .button button{
+        padding: 0;
+        background: none !important;
+    }
+
+    .content .input .input-group .button button span{
+        display: none;
+    }
+    
+
+    .info-bar *{
+        font-size: 13px !important;
+    }
+
+    .info-bar * img {
+        height: 16px !important;
+    }
+
+
+    .content .info .currency{
+        padding: 0 4px;
+        border-radius: 2px;
+        font-size: 8px;
+        background-color: #989898;
+    }
+    
+    .categories-box{
+        margin-top: 48px !important;
+    }
+    
+    
+}
